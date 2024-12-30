@@ -1,0 +1,168 @@
+/*Assignment 2 (VendingTest): Lilli Lewis 
+ * 9/27/23
+ * I confirm that the above list of sources is complete (none) AND that I have 
+ *  not talked to anyone else about the solution to this problem.*/
+Different tests
+1. Normal purchase, exact change, for an item in stock
+2. Normal purchase, too many quarters, for an item in stock
+3. Normal purchase, too many dimes, for an item in stock
+4. Normal purchase, too many nickels, for an item in stock
+5. Normal purchase, too many quarters, for an item in stock
+6. Normal purchase, too many bills, for an item in stock
+7. Invalid input, out of stock 
+8. Invalid input, ID that doesn't exist
+9. Does not want to buy more soda
+
+Welcome to the Soda Shack!!
+Hang on while I get set up.
+Do you want to buy a beverage? (yes or no)
+yes
+Current selection: 
+Brand ID: 100 price: $2.50
+Brand ID: 101 price: $1.25
+Brand ID: 102 price: $4.50
+Brand ID: 200 price: $3.00
+Brand ID: 202 price: $2.75
+Enter the ID of the beverage you want.
+100
+Price: $2.50 Deposited: $0.00
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $2.50 Deposited: $1.00
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $2.50 Deposited: $2.00
+Insert bill, quarter, dime, or nickel.
+quarter
+Price: $2.50 Deposited: $2.25
+Insert bill, quarter, dime, or nickel.
+quarter
+Sale successful. Please take your beverage.
+Change due: $0.00
+Do you want to buy a beverage? (yes or no)
+yes
+Current selection: 
+Brand ID: 100 price: $2.50
+Brand ID: 101 price: $1.25
+Brand ID: 102 price: $4.50
+Brand ID: 200 price: $3.00
+Brand ID: 202 price: $2.75
+Enter the ID of the beverage you want.
+101
+Price: $1.25 Deposited: $0.00
+Insert bill, quarter, dime, or nickel.
+quarter
+Price: $1.25 Deposited: $0.25
+Insert bill, quarter, dime, or nickel.
+quarter
+Price: $1.25 Deposited: $0.50
+Insert bill, quarter, dime, or nickel.
+bill
+Sale successful. Please take your beverage.
+Change due: $0.25
+Please take your change:
+1 quarters 0 dimes 0 nickels.
+Do you want to buy a beverage? (yes or no)
+yes
+Current selection: 
+Brand ID: 100 price: $2.50
+Brand ID: 102 price: $4.50
+Brand ID: 200 price: $3.00
+Brand ID: 202 price: $2.75
+Enter the ID of the beverage you want.
+102
+Price: $4.50 Deposited: $0.00
+Insert bill, quarter, dime, or nickel.
+dime
+Price: $4.50 Deposited: $0.10
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $4.50 Deposited: $1.10
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $4.50 Deposited: $2.10
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $4.50 Deposited: $3.10
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $4.50 Deposited: $4.10
+Insert bill, quarter, dime, or nickel.
+quarter
+Price: $4.50 Deposited: $4.35
+Insert bill, quarter, dime, or nickel.
+quarter
+Sale successful. Please take your beverage.
+Change due: $0.10
+Please take your change:
+0 quarters 1 dimes 0 nickels.
+Do you want to buy a beverage? (yes or no)
+yes
+Current selection: 
+Brand ID: 100 price: $2.50
+Brand ID: 102 price: $4.50
+Brand ID: 200 price: $3.00
+Brand ID: 202 price: $2.75
+Enter the ID of the beverage you want.
+200
+Price: $3.00 Deposited: $0.00
+Insert bill, quarter, dime, or nickel.
+nickel
+Price: $3.00 Deposited: $0.05
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $3.00 Deposited: $1.05
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $3.00 Deposited: $2.05
+Insert bill, quarter, dime, or nickel.
+bill
+Sale successful. Please take your beverage.
+Change due: $0.05
+Please take your change:
+0 quarters 0 dimes 1 nickels.
+Do you want to buy a beverage? (yes or no)
+yes
+Current selection: 
+Brand ID: 100 price: $2.50
+Brand ID: 102 price: $4.50
+Brand ID: 200 price: $3.00
+Brand ID: 202 price: $2.75
+Enter the ID of the beverage you want.
+202
+Price: $2.75 Deposited: $0.00
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $2.75 Deposited: $1.00
+Insert bill, quarter, dime, or nickel.
+bill
+Price: $2.75 Deposited: $2.00
+Insert bill, quarter, dime, or nickel.
+bill
+Sale successful. Please take your beverage.
+Change due: $0.25
+Please take your change:
+1 quarters 0 dimes 0 nickels.
+Do you want to buy a beverage? (yes or no)
+yes
+Current selection: 
+Brand ID: 100 price: $2.50
+Brand ID: 102 price: $4.50
+Brand ID: 200 price: $3.00
+Brand ID: 202 price: $2.75
+Enter the ID of the beverage you want.
+101
+Incorrect ID or out of stock, please try again.
+Do you want to buy a beverage? (yes or no)
+yes
+Current selection: 
+Brand ID: 100 price: $2.50
+Brand ID: 102 price: $4.50
+Brand ID: 200 price: $3.00
+Brand ID: 202 price: $2.75
+Enter the ID of the beverage you want.
+blue
+Incorrect ID or out of stock, please try again.
+Do you want to buy a beverage? (yes or no)
+no
+Thank you for visiting the Soda Shack!
